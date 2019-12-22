@@ -1,0 +1,219 @@
+body{
+	margin:0;
+	padding:0;
+	text-align: center;
+	margin:0 auto;
+}
+
+.container{
+	width:790px;
+	margin:0 auto;
+	overflow: hidden;
+	text-align:center;
+}
+
+.one-third{
+	width:33.3333%;
+	float:left;
+	box-sizing: border-box;
+
+
+}
+
+.width-limiter {
+	width: 1300px;
+}
+
+#logo {
+	text-shadow: 5px 3px #e1e1e1;
+	letter-spacing: 9px;
+	font-family: "Al Tarikh", sans-serif;
+	font-size: 60px
+
+}
+.brush {
+	margin-top: 30px;
+	margin-bottom: 10px;
+}
+
+#address {
+	margin-top: -20px;
+	margin-bottom: 20px;
+	letter-spacing: 12.5px;
+	font-size: 9px;
+	font-family: "Arial", sans-serif;
+}
+.rooms img{
+	border-radius: 25px;
+}
+
+/*------------MENU--------------*/
+
+
+
+#menu{
+	margin:0 auto;
+	text-align:center;
+	/*border:1px solid red;*/
+
+}
+
+#menu nav ul{
+	margin:0;
+	padding:0;
+}
+
+#menu nav ul li{
+	list-style: none;
+	float:left;
+
+}
+
+
+#menu nav ul li a{
+	display:block;
+	font-weight: 100;
+	font-family: Arial, sans-serif;
+	font-size: 16,4px;
+	color: black;
+	text-align:center;
+	text-decoration: none;
+	padding:10px 30px;
+	height:40px;
+	line-height:40px;
+
+}
+
+#menu nav ul li a:hover{
+	background-color:#f9d8cf;
+	text-align:center;
+	
+}
+.rooms {
+	margin-bottom: 40px;
+}
+
+/*------------DESIGN--------------*/
+
+#text1{
+	position:relative;
+	width:1200px;
+	margin-left:210px;
+	color: #5a5353;
+	/*height:499px;*/
+	padding: 20px;
+	border:1px ;
+	border-radius: 25px;
+	background: #ffeeee;
+
+}
+
+/*------------PRODUCTS--------------*/
+
+
+#text2{
+	position:relative;
+	width:1200px;
+	margin-left:210px;
+	color: #5a5353;
+	/*height:499px;*/
+	padding: 20px;
+	border:1px ;
+	border-radius: 25px;
+	background: #efebdc;
+}
+#text3{
+	position:relative;
+	width:700px;
+	padding: 20px;
+	/*float: right;*/
+	color: #5a5353;
+	padding: 20px;
+	border:1px ;
+	border-radius: 25px;
+	background: #efebdc;
+}
+
+/*----------- FOOTER ------------- */
+footer {
+	text-align:center;
+	height: 130px;
+	background-color: #cad4dc;
+	font-family: Arial, sans-serif;
+	font-size: 14px;
+}
+
+footer a {
+	text-align:center;	
+	text-decoration: none;
+
+}
+
+#footer-menu {
+	margin: 35px 0px;
+	padding: 0;
+	overflow: hidden;
+	text-align:center;
+}
+
+#footer-menu li {
+	list-style: none;
+/*	float: left;*/
+
+}
+
+#footer-menu li a {
+	display: block;
+	color: #6a86a0;
+}
+
+#footer-menu li a:hover {
+	color: white;
+}
+.button a{
+	margin-top: 100px;
+	/*position: relative;*/
+	border-radius: 28px;
+	text-decoration: none;
+	height:69px;
+	width:360px;
+	background-color:#f6cfc8;
+	padding:20px;
+	color:black;
+	letter-spacing: -1px;
+	word-spacing: 10px;
+	/*font-weight:bold;*/
+	margin:0 auto;
+	text-align: center;
+	font-family: Arial;
+	margin-top:20px;
+}
+.button a:hover{
+	background-color:#cee3eb;
+	text-align:center;
+}
+
+/*------------CONTACT-------------*/
+
+#contacting {
+	width: 1500px;
+	margin-left: 80px;
+	color:  #3f3737;
+	font-family: Arial, sans-serif;
+	font-size: 30px;
+	border: 3px solid black;
+	border-radius: 25px;
+	background: #cde4e0;
+}
+
+/*-----------ABOUT----------------*/
+#text6{
+	position:relative;
+	width:1200px;
+	margin-left:210px;
+	color: #5a5353;
+	/*height:499px;*/
+	padding: 20px;
+	border:1px ;
+	border-radius: 25px;
+	background: #ece2b2;
